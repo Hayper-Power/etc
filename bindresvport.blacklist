@@ -1,0 +1,14 @@
+#
+# This file contains a list of port numbers between 6>
+# which should not be used by bindresvport. bindresvp>
+# called by RPC services. This mostly solves the prob>
+# RPC service uses a well known port of another servi>
+#
+623     # ASF, used by IPMI on some cards
+631     # cups
+636     # ldaps
+664     # Secure ASF, used by IPMI on some cards
+774     # rpasswd
+921     # lwresd
+993     # imaps
+995     # pops
